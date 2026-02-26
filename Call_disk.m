@@ -18,10 +18,10 @@ mu=6*10^9;               % Shear modulus
 lambda=4*10^9;           % Lamè constant
 MedianPlane=1825;        % TPE inclusion, depth   of median plane  
 limiteplot=8000;         % Limit in plot (max(x))
-k=2;                     % Step for plot in x axis
+k=25;                     % Step for plot in x axis
 Zmin=0;                  % Min z axis for computation
 Zmax=4000;               % Max z axis for computation
-Zstep=2;                 % Step for plot in z
+Zstep=25;                 % Step for plot in z
 eta=10^16;               % Viscosity for the visco-elastic computation
 TV=4;                    % First normalized time t/tau, tau=eta/mu
 TV2=2;                   % Second normalized time t/tau, tau=eta/mu
