@@ -17,3 +17,13 @@ System requirements:  The scripts were tested with a i7 processor with 32 GB of 
                       MATLAB 2024b.
                       
 Massimo Nespoli, March 2025
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Notice: To speed up the computation and reduce RAM usage, you can increase two parameters in the file "Call_disk.m", k and Zstep. For example, you may set:
+
+k = 25; % Step for plot in x axis
+Zstep = 25; % Step for plot in z
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
